@@ -4,7 +4,7 @@
 
 -->It is made using Ruby 2.3.4 and Rails 4.2
 
--->I fyou have all the specs installed just ignore this, else use:
+-->If you have all the specs installed just ignore this, else use:
 
 >bundle install
 
