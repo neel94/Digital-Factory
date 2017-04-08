@@ -27,7 +27,7 @@ puts "Done! #{Customer.all.size} customers created."
 
 puts "Initializing default reservations..."
 Reservation.destroy_all
-(0..1).each do |index|
+(0..2).each do |index|
   customer = Customer.all[index]
   table = Table.all[index+3]
   Reservation.create!(customer: customer,
